@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+#titleBox{
+    border-bottom: 1px solid black;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+#titleBox:hover{
+    background-color:cornflowerblue;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+}
+ul li{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+ul li a{
+    width: 100%;
+}
+ul li:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+ul li:nth-child(2){
+    border-right: none;
+    border-left: none;
+}
