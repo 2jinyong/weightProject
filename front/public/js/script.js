@@ -149,7 +149,7 @@ $(function(){
                     
                     html += `
                         <div class="history-item">
-                            <span><strong>이름:</strong> ${displayName} | <strong>날짜:</strong> ${item.created_at} | <strong>신장:</strong> ${item.height}cm | <strong>체중:</strong> ${item.weight}kg | <strong>BMI:</strong> ${item.bmi}</span>
+                            <span><strong>이름:</strong> ${displayName} | <strong>신장:</strong> ${item.height}cm | <strong>체중:</strong> ${item.weight}kg | <strong>BMI:</strong> ${item.bmi}| <strong>날짜:</strong> ${item.created_at}</span>
                             <div>
                                 <button onclick="askAI(${item.height}, ${item.weight})">${btnText}</button>
                                 <button onclick="deleteHistory(${item.id})" class="del-btn">삭제하기</button>

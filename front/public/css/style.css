@@ -198,12 +198,15 @@ ul li a{
     border: 1px solid #ccc; 
     margin: 10px auto; 
     padding: 15px;
-    width: 800px;              /* 결과 박스 너비와 통일 */
+    width: auto;              /* 결과 박스 너비와 통일 */
     border-radius: 10px;
     display: flex;             /* 날짜와 버튼들을 양옆으로 찢어놓기 위함 */
     justify-content: space-between; 
     align-items: center;
     background-color: white;
+}
+.history-item span{
+    margin-right: 20px;
 }
 
 .history-item button {
