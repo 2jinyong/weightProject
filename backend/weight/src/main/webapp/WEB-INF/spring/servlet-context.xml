@@ -30,9 +30,8 @@
 
 	<mvc:cors>
 		<mvc:mapping path="/**"
-			allowed-origins="http://localhost:3000"
-			allowed-methods="GET, POST, PUT, DELETE"
-			allowed-headers="Content-Type, Authorization"
-			allow-credentials="true" />
+			allowed-origins="*"
+			allowed-methods="GET, POST, PUT, DELETE"	
+			allowed-headers="Content-Type, Authorization"/>
 	</mvc:cors>
 </beans>
